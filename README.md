@@ -25,6 +25,23 @@ This repository contains a learning project for JavaScript fundamentals and Play
     - `VS_Code_keyboard_shortcut_windows.md` — useful Visual Studio Code shortcuts for Windows.
     - `README.md` — detailed chapter notes for identifier and literal topics.
 
+- `chapter_04_Variables/`
+  - Covers JavaScript variable declaration types, scope, hoisting, and constant behavior.
+  - Contains:
+    - `09_var_concept.js` — introduction to `var` declarations.
+    - `10_function_example.js` — function examples and variable usage.
+    - `11_var_function_scope.js` — `var` scope inside functions.
+    - `12_let_concept.js` — `let` declaration basics.
+    - `13_const_concept.js` — `const` declaration and immutability.
+    - `14_var_global_local.js` — global and local scope with `var`.
+    - `15_let_scope.js` — block scoping with `let`.
+    - `16_Hoisting.js` — hoisting behavior with `var`.
+    - `17_Hoisting_fn.js` — function hoisting examples.
+    - `18_let_hoisting.js` — hoisting and `let` differences.
+    - `19_let_hoisting_block.js` — block-level hoisting with `let`.
+    - `20_const_hoisting_TDZ.js` — `const` and the temporal dead zone.
+    - `21_QA.js` — variable and scope practice with question-and-answer examples.
+
 ## What This Project Covers
 
 - JavaScript basics: console output, variables, loops, functions, and assignment.
@@ -35,15 +52,17 @@ This repository contains a learning project for JavaScript fundamentals and Play
 
 ## How to Use This Repository
 
-1. Open the project in Visual Studio Code.
-2. Explore the chapter folders to review code examples and notes.
-3. Open `Chapter_01_Basics` for beginner JavaScript exercises.
-4. Open `Chapter_02_Javascript_Concepts` for more JS practice.
-5. Open `chapter_03_Identifier_Literals/README.md` for detailed notes on identifiers, naming conventions, and comments.
-6. Add new chapter folders as you continue learning, such as `Chapter_04`, `Chapter_05`, etc.
+1. Open the project folder in Visual Studio Code.
+2. Review the root `README.md` for the overall repository structure.
+3. Open each chapter folder to read the code examples and learn the concept for that chapter.
+4. Use chapter-specific `README.md` files when present, such as `chapter_03_Identifier_Literals/README.md`, for deeper explanations.
+5. Run JavaScript files in the terminal with `node <filename>.js` if you want to execute examples locally.
+6. Start with `Chapter_01_Basics` for introductory JavaScript examples, then move to `Chapter_02_Javascript_Concepts` and `chapter_03_Identifier_Literals`.
+7. Continue to `chapter_04_Variables` for variable declarations, scope, hoisting, and constant behavior.
+8. Add new chapter folders as you continue learning, such as `Chapter_05` and beyond.
 
 ## Notes
 
 - The repository currently includes learning files for JavaScript basics and chapter-based practice.
 - Future chapters can include Playwright automation examples, browser testing scripts, and more advanced JavaScript topics.
-- Each chapter folder can contain its own `README.md` for detailed explanations.
+- This root `README.md` is the overall repository summary; chapter-specific `README.md` files contain deeper notes for each topic.
